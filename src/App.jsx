@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import DashboardLayout from './layouts/DashboardLayout'
 import DashboardHome from './pages/DashboardHome'
 import Insights from './pages/Insights'
+import Budgets from './pages/Budgets'
 import { useUIStore } from './store/useUIStore'
 import { useLocalStorage } from './hooks/useLocalStorage'
 
@@ -56,6 +57,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<DashboardHome />} />
           <Route path="/insights" element={<Insights />} />
+          <Route path="/budgets" element={<Budgets />} />
           {/* Catch-all redirect for unimplemented routes */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

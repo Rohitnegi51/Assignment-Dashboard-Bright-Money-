@@ -293,4 +293,13 @@
     transition-timing-function: var(--ease-smooth);
     transition-duration: var(--duration-fast);
   }
+
+  /* Hide scrollbar while preserving scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }

@@ -1,9 +1,9 @@
 import {
   LayoutDashboard,
-  TrendingUp,
+  Wallet,
+  ArrowRightLeft,
+  PieChart,
   Lightbulb,
-  Landmark,
-  FileText,
   HelpCircle,
   LogOut,
 } from 'lucide-react'
@@ -14,10 +14,10 @@ import {
  */
 export const NAV_ITEMS = [
   { id: 'dashboard', label: 'Dashboard', path: '/', icon: LayoutDashboard },
-  { id: 'markets', label: 'Markets', path: '/markets', icon: TrendingUp },
+  { id: 'accounts', label: 'Accounts', path: '/accounts', icon: Wallet },
+  { id: 'transactions', label: 'Transactions', path: '/transactions', icon: ArrowRightLeft },
+  { id: 'budgets', label: 'Budgets', path: '/budgets', icon: PieChart },
   { id: 'insights', label: 'Insights', path: '/insights', icon: Lightbulb },
-  { id: 'wealth-hub', label: 'Wealth Hub', path: '/wealth-hub', icon: Landmark },
-  { id: 'documents', label: 'Documents', path: '/documents', icon: FileText },
 ]
 
 export const BOTTOM_NAV_ITEMS = [

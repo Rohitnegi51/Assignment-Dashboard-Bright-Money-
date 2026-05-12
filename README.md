@@ -5,7 +5,7 @@
 Wealth Curator is a production-grade, responsive React frontend demonstrating a premium, editorial-style fintech dashboard. It focuses on pixel-perfect layouts, robust state management, and an architecture that bridges the gap between high-end UI/UX and scalable engineering.
 
 ## 🚀 Live Demo
-*(Deployment URL coming soon)*
+[Live Link](https://assignment-dashboard-bright-money.vercel.app/)
 
 ## ✨ Features
 - **Responsive Bento-Style UI**: A fluid layout that gracefully scales from ultra-wide desktops to mobile devices, preserving the dashboard's proportions and spacing.
